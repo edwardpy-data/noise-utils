@@ -277,12 +277,3 @@ class DateTransformer(BaseEstimator, TransformerMixin):
 
         return X.drop(columns = ["Date","Time"])
 
-
-if __name__ == '__main__':
-    df = pd.read_csv(r"C:\Users\PC\Desktop\Datasets\Uber\ncr_ride_bookings.csv")
-
-    nulls = NullFunc(df)
-    nulls.drop_nas("Booking Value")
-    nulls.null()
-    nulls.mean_fill()
-    nulls.null()
