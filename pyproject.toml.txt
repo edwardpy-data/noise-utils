@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "noise-utils"            # package name (what you'll pip install)
+version = "0.0.1"
+description = "Utilities for handling data (NullFunc, Datetransfomer nd others)."
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+  { name = "Edward", email = "mugambiedward57@gmail.com" }
+]
+dependencies = ["pandas"," sklearn.base.BaseEstimator", " sklearn.base.TransformerMixin"]
