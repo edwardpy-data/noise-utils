@@ -11,4 +11,4 @@ requires-python = ">=3.8"
 authors = [
   { name = "Edward", email = "mugambiedward57@gmail.com" }
 ]
-dependencies = ["pandas"," sklearn.base.BaseEstimator", " sklearn.base.TransformerMixin"]
+dependencies = ["pandas", "scikit-learn"]
